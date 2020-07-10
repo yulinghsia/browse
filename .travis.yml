@@ -7,6 +7,6 @@ before_deploy:
 
 deploy:
   provider: s3
-  bucket: browse.demo.microfrontends.com
+  bucket: browse.demo.letusdoit.design
   local_dir: build
   skip_cleanup: true
